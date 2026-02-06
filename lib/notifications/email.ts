@@ -78,3 +78,6 @@ export async function sendOilChangeNotification(
     throw error
   }
 }
+
+// Alias for backward compatibility
+export const sendOilChangeEmail = sendOilChangeNotification
