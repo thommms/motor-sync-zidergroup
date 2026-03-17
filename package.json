@@ -7,7 +7,7 @@
     "build": "prisma generate && next build",
     "start": "next start",
     "lint": "next lint",
-    "vercel-build": "prisma generate && prisma migrate deploy && next build",
+    "vercel-build": "prisma generate && next build",
     "postinstall": "prisma generate"
   },
   "dependencies": {
@@ -16,7 +16,7 @@
     "autoprefixer": "^10.4.20",
     "bcryptjs": "^2.4.3",
     "cloudinary": "^2.5.1",
-    "firebase": "^12.9.0",
+    "firebase": "^11.2.0",
     "firebase-admin": "^13.0.2",
     "next": "^15.1.3",
     "next-auth": "^4.24.10",
@@ -33,8 +33,8 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9.39.2",
-    "eslint-config-next": "^16.1.6",
+    "eslint": "^9.18.0",
+    "eslint-config-next": "^15.1.3",
     "typescript": "^5"
   }
 }
